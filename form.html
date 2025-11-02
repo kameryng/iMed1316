@@ -9,8 +9,27 @@
   </head>
   <body>
     <form action="my-server-file.php" id="myForm" name="myForm" enctype="multipart/form-data">
+      <!-- text field-->
       <label for="first name">First Name</label>
-      <input type="text" name="fName" id="first-name" required />
+      <input type="text" name="fName" id="first-name" required /><br />
+
+      <!-- drop down menu -->
+      <label for="color ">Choose a color</label>
+      <select name="colors" id="colors" required>
+        <option value="">Select</option>
+        <option value="white">white</option>
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="yellow">yellow</option>
+        <option value="pink">pink</option>
+      </select>
+      <br />
+
+      <!-- radio buttons -->
+      <input type="radio" name="myDecision" id="myRadio" value="Yes" />Yes<br />
+      <input type="radio" name="myDecision" id="myRadio" value="No" />No<br />
+
+      <input type="submit" value="Submit Form" id="submit" />
     </form>
 
     <script src="js/form.js"></script>

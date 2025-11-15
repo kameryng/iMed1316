@@ -12,13 +12,13 @@
 :root {
 
 /* var(--primaryColor) !important; */
---primaryColor: #AB8F54;
+--primaryColor: #83cec2;
 
 /* var(--secondaryColor) !important; */
---secondaryColor: #AB6354;
+--secondaryColor: #0602ff;
 
 /* var(--accentColor) !important; */
---accentColor: #9CAB54;
+--accentColor: #3adcb6;
 
 /* var(--fontFamily) !important; */
 --fontFamily: "Josefin Sans", sans-serif;

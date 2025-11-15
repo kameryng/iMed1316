@@ -78,4 +78,8 @@ p {
 .LottieFiles {
     background-color:rgb(198, 255, 255);
     padding: 20px;
+    color:#ffffff !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+

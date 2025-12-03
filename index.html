@@ -23,6 +23,20 @@
       }
     </style>
   </head>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#our-story">Our Story</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content Section -->
+  <section id="our-story">
+    <h2>Our Story</h2>
+    <p>Multi Surf started with a simple mission: to bring the joy of surfing to everyone and protect our oceans...</p>
+  </section>
+
   <body>
     <!-- begin header -->
     <header-component></header-component>
@@ -182,19 +196,3 @@
     </section>
   </body>
 </html>
-<nav>
-  <ul>
-    <li><a href="#" onclick="showStory()">Our Story</a></li>
-  </ul>
-</nav>
-
-<div id="content"></div>
-
-<script>
-  function showStory() {
-    document.getElementById("content").innerHTML = `
-    <h2>Our Story</h2>
-    <p>Multi Surf started with a simple mission: to bring the joy of surfing to everyone and protect our oceans...</p>
-  `;
-  }
-</script>

@@ -77,10 +77,14 @@ p {
 
 .LottieFiles {
     background-color:rgb(31, 93, 93);
-    padding: 20px;
-    color:#120101 !important;
+    padding: 25px;
+    color:#ffffff !important;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.lottiefiles h2 {
+ color:#ffffff !important;
 }
 
 /* Import Google Font */
